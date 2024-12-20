@@ -3,14 +3,15 @@
 
 ## 打赏链接
 
-[**点我打赏，用爱发电**](https://afdian.net/a/dockerapps)
+[**点我打赏，用爱发电**](https://afdian.com/a/dockerapps)
 
-[![**点我打赏，用爱发电**](https://github.com/okxlin/appstore/raw/localApps/docs/afdian-logo.png)](https://afdian.net/a/dockerapps)
+[![**点我打赏，用爱发电**](https://github.com/okxlin/appstore/raw/localApps/docs/afdian-logo.png)](https://afdian.com/a/dockerapps)
 
 * * *
 ## 目录
 
 - [打赏链接](#打赏链接)
+- [目录](#目录)
 - [免责声明](#免责声明)
   - [1. 镜像容器适配](#1-镜像容器适配)
   - [2. 法律遵守](#2-法律遵守)
@@ -65,13 +66,13 @@
 
 > GitHub加速方式
 >> - (本仓库已添加)自建：https://github.com/hunshcn/gh-proxy
->> - https://mirror.ghproxy.com
+>> - https://ghp.ci
 
 #### 2.1.1 使用 git 命令获取应用
 
 `1Panel`计划任务类型`Shell 脚本`的计划任务框里，添加并执行以下命令，或者终端运行以下命令，
 ```shell
-git clone -b localApps https://mirror.ghproxy.com/https://github.com/okxlin/appstore /opt/1panel/resource/apps/local/appstore-localApps
+git clone -b localApps https://ghp.ci/https://github.com/okxlin/appstore /opt/1panel/resource/apps/local/appstore-localApps
 
 cp -rf /opt/1panel/resource/apps/local/appstore-localApps/apps/* /opt/1panel/resource/apps/local/
 
@@ -84,7 +85,7 @@ rm -rf /opt/1panel/resource/apps/local/appstore-localApps
 
 `1Panel`计划任务类型`Shell 脚本`的计划任务框里，添加并执行以下命令，或者终端运行以下命令，
 ```shell
-wget -P /opt/1panel/resource/apps/local https://mirror.ghproxy.com/https://github.com/okxlin/appstore/archive/refs/heads/localApps.zip
+wget -P /opt/1panel/resource/apps/local https://ghp.ci/https://github.com/okxlin/appstore/archive/refs/heads/localApps.zip
 
 unzip -o -d /opt/1panel/resource/apps/local/ /opt/1panel/resource/apps/local/localApps.zip
 
